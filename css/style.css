@@ -3,10 +3,6 @@
   margin-left: 10px;
 }
 
-body {
-   font-family: GillSans, Calibri, Trebuchet, sans-serif;
- }
-
 #test5 i{
   margin-top: 5px;
   margin-bottom: 10px;
@@ -20,4 +16,8 @@ body {
   font-size: 15px;
   padding-top: 10px;
   margin-bottom:10px;
+}
+
+.h2color{
+  color: #fff;
 }
