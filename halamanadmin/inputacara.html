@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="blue-grey lighten-5">
+  <head>
+    <meta charset="utf-8">
+    <meta name="seminar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeminarKita</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="../VENDOR/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../VENDOR/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <!-- Dropdown Structure -->
+    <div class="navbar-fixed">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="listacara.html"><i class="material-icons right">event_note</i>List Acara</a></li>
+        <li><a href="inputacara.html"><i class="material-icons right">alarm_add</i>Buat Acara</a></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper blue lighten-3">
+          <a href="#!" class="brand-logo marginkebawah">
+            <img src="../IMAGES/LogoSample_ByTailorBrands.jpg" alt="">
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons left">face</i>Profile</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons left">event</i>Organisasi<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="../beranda.html"><i class="material-icons left">public</i>Beranda</a></li>
+            <li><a href="../halamanuser/index.html"><i class="material-icons left">lock</i>Logout</a></li>
+            <!-- Dropdown Trigger -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+  <div class="container">
+    <div class="card">
+      <div class="card-image">
+        <img src="../IMAGES/banner1.jpg" alt="">
+      </div>
+      <div class="card-content">
+        <div class="card-title">
+          <h5><span style="color:#039be5;">Input Data Acara</span></h5>
+        </div>
+        <form class="" action="" method="post">
+          <div class="row">
+            <div class="input-field col m6 s12">
+              <input id="tema" type="text" class="validate" required>
+              <label for="tema" data-error="wrong" data-success="right">Tema</label>
+            </div>
+            <div class="input-field col m6 s12">
+              <input id="judul" type="text" class="validate" required>
+              <label for="judul" data-error="wrong" data-success="right">Judul</label>
+            </div>
+          </div>
+          <div class="row">
+            <div id="waktu" class="input-field col m6 s12">
+              <input type="text" class="timepicker" required>
+              <label for="waktu" data-error="wrong" data-success="right">Waktu</label>
+            </div>
+            <div class="input-field col m6 s12">
+              <input id="tanggal" type="text" class="datepicker" required>
+              <label for="tanggal" data-error="wrong" data-success="right">Hari Tanggal dan Bulan</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col m6 s12">
+              <input id="Pemaeri" type="text" class="validate" required>
+              <label for="Pemaeri" data-error="wrong" data-success="right">Pemateri</label>
+            </div>
+            <div class="input-field col m6 s12">
+              <input id="Biaya" type="text" class="validate" required>
+              <label for="Biaya" data-error="wrong" data-success="right">Biaya</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col m6 s12">
+              <input id="Fasilitas" type="text" class="validate" required>
+              <label for="Fasilitas" data-error="wrong" data-success="right">Fasilitas</label>
+            </div>
+            <div class="input-field col m6 s12">
+              <input id="Sponsonr" type="text" class="validate" required>
+              <label for="Sponsonr" data-error="wrong" data-success="right">Sponsonr</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col m6 s12">
+              <input id="kontak" type="text" class="validate" required>
+              <label for="kontak" data-error="wrong" data-success="right">Kontak</label>
+            </div>
+            <div class="input-field col m6 s12">
+              <input id="MediaPartner" type="text" class="validate" required>
+              <label for="MediaPartner" data-error="wrong" data-success="right">Media Partner</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col m6 s12">
+              <input id="gambar" type="text" class="validate" required>
+              <label for="gambar" data-error="wrong" data-success="right">Gambar</label>
+            </div>
+            <div class="input-field col m6 s12">
+              <input id="Catatan" type="text" class="validate" required>
+              <label for="Catatan" data-error="wrong" data-success="right">Catatan</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <!-- <script src="../VENDOR/jquery-3.2.1.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <!-- <script src="../VENDOR/materialize/js/materialize.min.js"></script> -->
+      <script type="text/javascript">
+        $('document').ready(function(){
+          $('.timepicker').pickatime({
+            default: 'now', // Set default time: 'now', '1:30AM', '16:30'
+            fromnow: 0,       // set default time to * milliseconds from now (using with default = 'now')
+            twelvehour: false, // Use AM/PM or 24-hour format
+            donetext: 'OK', // text for done-button
+            cleartext: 'Clear', // text for clear-button
+            canceltext: 'Cancel', // Text for cancel-button
+            autoclose: false, // automatic close timepicker
+            ampmclickable: true, // make AM PM clickable
+            aftershow: function(){} //Function for after opening timepicker
+          });
+
+          $('.datepicker').pickadate({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 15, // Creates a dropdown of 15 years to control year,
+            today: 'Today',
+            clear: 'Clear',
+            close: 'Ok',
+            closeOnSelect: false // Close upon selecting a date,
+          });
+        });
+      </script>
+  </body>
+</html>

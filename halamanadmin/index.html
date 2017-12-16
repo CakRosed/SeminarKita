@@ -15,8 +15,8 @@
     <!-- Dropdown Structure -->
     <div class="navbar-fixed">
       <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!"><i class="material-icons right">search</i>Cari Organisasi</a></li>
-        <li><a href="#!"><i class="material-icons right">group-add</i>Buat Organisasi</a></li>
+        <li><a href="listacara.html"><i class="material-icons right">event_note</i>List Acara</a></li>
+        <li><a href="inputacara.html"><i class="material-icons right">alarm_add</i>Buat Acara</a></li>
       </ul>
       <nav>
         <div class="nav-wrapper blue lighten-3">
@@ -26,7 +26,8 @@
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html"><i class="material-icons left">face</i>Profile</a></li>
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons left">event</i>Organisasi<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="beranda.html"><i class="material-icons left">language</i>Beranda</a></li>
+            <li><a href="beranda.html"><i class="material-icons left">public</i>Beranda</a></li>
+            <li><a href="../halamanuser/index.html"><i class="material-icons left">lock</i>Logout</a></li>
             <!-- Dropdown Trigger -->
           </ul>
         </div>
@@ -36,16 +37,17 @@
 
   <div class="container">
     <!-- card profile -->
+
         <div class="card">
           <div class="row blue lighten-1 z-depth-1">
             <div class="col m6 s12 push-m1">
-              <h4><span class="h2color">M.Aunur Rosidin</span></h4>
+              <h4><span class="h2color">Leho Development</span></h4>
             </div>
           </div>
           <div class="row">
             <div class="col m4 s12">
               <div class="card-image">
-                <img class="responsive-img" src="../IMAGES/profilrosid.png">
+                <img class="responsive-img" src="../IMAGES/leho.jpg">
               </div>
             </div>
             <div class="col m8 s12">
@@ -56,21 +58,29 @@
                 <div class="card-tabs">
                   <ul class="tabs tabs-fixed-width">
                     <li class="tab"><a class="active" href="#test4">Kontak</a></li>
-                    <li class="tab"><a href="#test5">Social Media</a></li>
+                    <li class="tab"><a href="#test5">Media</a></li>
                     <li class="tab"><a href="#test6">Bidang Keahlian</a></li>
                   </ul>
                 </div>
-                <div class="card-content grey lighten-4">
+                <div class="card-content">
                   <div id="test5">
                     <div class="card-action">
-                      <a class="waves-effect waves-light btn btn-large" href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                      <a class="waves-effect waves-light btn btn-large" href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                      <a class="waves-effect waves-light btn btn-large" href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                      <a class="waves-effect waves-light btn btn-large" href="#"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>
-                      <a class="waves-effect waves-light btn btn-large" href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                      <a class="waves-effect waves-light " href="#"><i class="material-icons small">web</i></a>
+
                     </div>
                   </div>
                   <div id="test4">
+                    <div class="card-action"></div>
                     <table class="highlight bordered">
                       <tr>
                         <th><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</th>
@@ -87,6 +97,7 @@
                     </table>
                   </div>
                   <div id="test6">
+                    <div class="card-action"></div>
                     <div class="chip">
                      #Designer
                     </div>
@@ -121,20 +132,55 @@
         </div>
       </div>
       <div class="card-content">
-        <h3>Leho Development</h2>
+        <h2>Leho Development</h2>
         <div class="card-tabs">
           <ul class="tabs tabs-fixed-width">
-            <li class="tab"><a href="#org1">Jabatan</a></li>
+            <li class="tab"><a href="#org1">Anggota</a></li>
             <li class="tab"><a class="active" href="#org2">Tentang Organisasi</a></li>
             <li class="tab"><a href="#org3">Kelola Acara</a></li>
           </ul>
         </div>
         <div class="card-content grey lighten-4">
           <div id="org1">
-            <div class="chip">
-            <img class="img-responsive" src="../IMAGES/leho.jpg" alt="foto">
-            Founder CEO Leho Development
-          </div>
+            <table class="bordered highlight">
+              <tr>
+                <th>Nama</th>
+                <th>Jabatan</th>
+                <th>Status</th>
+                <th>Link</th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div>
+                </td>
+                <td>
+                  <div class="chip">Founder CEO</div><br>
+                  <div class="chip">FrontEnd Developer</div><br>
+                  <div class="chip">BackEnd Developer</div>
+                </td>
+                <td><div class="chip">Admin</div></td>
+                <td><a href="#"><i class="material-icons small">link</i></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="chip"><img class="img-responsive" src="../IMAGES/andi.jpg" alt="foto">M.Aunur Rosidin</div>
+                </td>
+                <td><div class="chip">Analyst</div></td>
+                <td><div class="chip">Anggota</div></td>
+                <td><a href="#"><i class="material-icons small">link</i></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="chip"><img class="img-responsive" src="../IMAGES/alphin.jpg" alt="foto">M.Aunur Rosidin</div>
+                </td>
+                <td><div class="chip">Designer</div></td>
+                <td><div class="chip">Anggota</div></td>
+                <td><a href="#"><i class="material-icons small">link</i></a></td>
+              </tr>
+              <tr>
+                <td class="card-action"><a href="#!">Tampilkan Semua</a></td>
+              </tr>
+            </table>
           </div>
           <div id="org2">
             <div class="row">
@@ -149,40 +195,6 @@
 
           </div>
           <div id="org3">
-            <p> Silahkan Login Admin Organisasi untuk mengelola Acara </p>
-              <a class="waves-effect waves-light btn" href="../loginadmin/index.html">Login</a>
-          </div>
-        </div>
-        <br><hr>
-        <!-- second organization -->
-        <h2>SeminarKita</h2>
-        <div class="card-tabs">
-          <ul class="tabs tabs-fixed-width">
-            <li class="tab"><a href="#org11">Jabatan</a></li>
-            <li class="tab"><a class="active" href="#org22">Tentang Organisasi</a></li>
-            <li class="tab"><a href="#org33">Kelola Acara</a></li>
-          </ul>
-        </div>
-        <div class="card-content grey lighten-4">
-          <div id="org11">
-            <div class="chip">
-            <img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">
-            Founder CEO SeminarKita
-          </div>
-          </div>
-          <div id="org22">
-            <div class="row">
-              <img class="img-responsive col m4 s12 push-m4" src="../IMAGES/LogoSample_ByTailorBrands.jpg" alt="leho">
-            </div>
-            <h5 class="">SeminarKita</h5>
-            <p>Organisasi Ini bergerak dibidang jasa pembuatan Aplikasi Website Android Maupun Desktop,
-              juga membuka khursus bagi developer pemula  menengah maupun yang sudah mahir untuk meningkatkan
-              skill developmentnya dengan pemateri yang handal dibidangnya. Leho development juga menerima
-              tawaran untuk mengisi materi seminar dengan tema yang bersangkutan.</p> <br>
-              <a class="waves-effect waves-light btn right" href="#">Detail</a>
-
-          </div>
-          <div id="org33">
             <p> Silahkan Login Admin Organisasi untuk mengelola Acara </p>
               <a class="waves-effect waves-light btn" href="../loginadmin/index.html">Login</a>
           </div>
