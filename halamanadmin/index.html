@@ -8,16 +8,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="../VENDOR/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="../VENDOR/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
     <!-- Dropdown Structure -->
     <div class="navbar-fixed">
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a href="listacara.html"><i class="material-icons right">event_note</i>List Acara</a></li>
-        <li><a href="inputacara.html"><i class="material-icons right">alarm_add</i>Buat Acara</a></li>
-      </ul>
       <nav>
         <div class="nav-wrapper blue lighten-3">
           <a href="#!" class="brand-logo marginkebawah">
@@ -25,7 +22,6 @@
           </a>
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html"><i class="material-icons left">face</i>Profile</a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons left">event</i>Organisasi<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a href="beranda.html"><i class="material-icons left">public</i>Beranda</a></li>
             <li><a href="../halamanuser/index.html"><i class="material-icons left">lock</i>Logout</a></li>
             <!-- Dropdown Trigger -->
@@ -125,7 +121,7 @@
     <!-- emd card profile --><br><br>
 
     <!-- organisasi -->
-    <div class="card">
+    <!-- <div class="card">
       <div class="row blue lighten-1 z-depth-1">
         <div class="col m6 s12 push-m1">
           <h4><span class="h2color">ORGANISASI</span></h4>
@@ -163,7 +159,7 @@
               </tr>
               <tr>
                 <td>
-                  <div class="chip"><img class="img-responsive" src="../IMAGES/andi.jpg" alt="foto">M.Aunur Rosidin</div>
+                  <div class="chip"><img class="img-responsive" src="../IMAGES/andi.jpg" alt="foto">Andi Azhar Mustary H.</div>
                 </td>
                 <td><div class="chip">Analyst</div></td>
                 <td><div class="chip">Anggota</div></td>
@@ -171,7 +167,7 @@
               </tr>
               <tr>
                 <td>
-                  <div class="chip"><img class="img-responsive" src="../IMAGES/alphin.jpg" alt="foto">M.Aunur Rosidin</div>
+                  <div class="chip"><img class="img-responsive" src="../IMAGES/alphin.jpg" alt="foto">M.Alfin</div>
                 </td>
                 <td><div class="chip">Designer</div></td>
                 <td><div class="chip">Anggota</div></td>
@@ -200,14 +196,531 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>    -->
     <!-- end organisasi -->
+
+
+    <div class="card">
+      <div class="row blue lighten-1 z-depth-1">
+        <div class="col m6 s12 push-m1">
+          <h4><span class="h2color">MANAGEMENT</span></h4>
+        </div>
+      </div>
+
+      <!-- start content -->
+      <div class="content">
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">assignment_ind</i>Anggota</div>
+              <div class="collapsible-body">
+                <div class="row">
+                    <div class="col s12">
+                      <ul class="tabs default">
+                        <li class="tab col s3"><a href="#test1">List Anggota</a></li>
+                        <li class="tab col s3"><a href="#test2">Tambah Anggota</a></li>
+                        <li class="tab col s3"><a href="#test3">Followers</a></li>
+                      </ul>
+                    </div>
+                    <div id="test1" class="col s12">
+                      <div class="card-image">
+                        <img src="../IMAGES/banner7.jpg" alt="">
+                      </div>
+                      <br>
+                      <table class="bordered highlight">
+                        <tr>
+                          <th>Nama</th>
+                          <th>Jabatan</th>
+                          <th>Status</th>
+                          <th>Menu</th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div>
+                          </td>
+                          <td>
+                            <div class="chip">Founder CEO</div><br>
+                            <div class="chip">FrontEnd Developer</div><br>
+                            <div class="chip">BackEnd Developer</div>
+                          </td>
+                          <td><div class="chip">Admin</div></td>
+                          <td>
+                            <a href="#"><i class="material-icons">link</i></a>
+                            <a href="#"><i class="material-icons">edit</i></a>
+                            <a href="#"><i class="material-icons">delete</i></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="chip"><img class="img-responsive" src="../IMAGES/andi.jpg" alt="foto">Andi Azhar Mustary H.</div>
+                          </td>
+                          <td><div class="chip">Analyst</div></td>
+                          <td><div class="chip">Anggota</div></td>
+                          <td>
+                            <a href="#"><i class="material-icons">link</i></a>
+                            <a href="#"><i class="material-icons">edit</i></a>
+                            <a href="#"><i class="material-icons">delete</i></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="chip"><img class="img-responsive" src="../IMAGES/alphin.jpg" alt="foto">M.Alfin</div>
+                          </td>
+                          <td><div class="chip">Designer</div></td>
+                          <td><div class="chip">Anggota</div></td>
+                          <td>
+                            <a href="#"><i class="material-icons">link</i></a>
+                            <a href="#"><i class="material-icons">edit</i></a>
+                            <a href="#"><i class="material-icons">delete</i></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="test2" class="col s12">
+                      <div class="card-image">
+                        <img src="../IMAGES/banner5.jpg" alt="">
+                      </div>
+                      <br>
+                      <br>
+                      <nav>
+                        <div class="nav-wrapper">
+                          <form>
+                            <div class="input-field">
+                              <input id="search" type="search" required>
+                              <label for="search"><i class="material-icons">search</i></label>
+                              <!-- I've put "red-text" class to emphasize -->
+                              <i class="material-icons red-text">close</i>
+                            </div>
+                          </form>
+                        </div>
+                      </nav>
+                    </div>
+                    <div id="test3" class="col s12">
+                      <div class="card-image">
+                        <img src="../IMAGES/banner6.jpg" alt="">
+                      </div>
+                      <br>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col m6 s6">
+                          <div class="chip"><img class="img-responsive" src="../IMAGES/rosid.jpg" alt="foto">M.Aunur Rosidin</div><br>
+                        </div>
+                        <div class="col m2 s2 push-m1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">link</i></a>
+                        </div>
+                        <div class="col m2 s2 push-1 push-s1">
+                          <a class="waves-effect waves-light" href=""><i class="material-icons">delete</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">attachment</i>Berita</div>
+              <div class="collapsible-body">
+                <div class="card-tabs">
+                  <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="#Konten">Berita</a></li>
+                    <li class="tab"><a class="active" href="#tambah">Tulis Berita</a></li>
+                  </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                  <div id="tambah">
+                    <!-- tulis berita -->
+                    <div class="card-image">
+                      <img src="../IMAGES/banner4.jpg" alt="">
+                    </div>
+                    <br>
+                    <form action="">
+                      <div class="row">
+                        <div class="col m12 s12">
+                          <div class="card white">
+                            <div class="card-content">
+                              <div class="row">
+                                <div class="col m6 s12">
+                                  <div class="input-field">
+                                    <i class="material-icons prefix">title</i>
+                                    <input id="tema" type="text" class="validate" required>
+                                    <label for="tema" data-error="wrong" data-success="right">Tulis Judul</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col m12 s12">
+                                  <div class="input-field">
+                                    <i class="material-icons prefix">mode_edit</i>
+                                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                    <label for="icon_prefix2">Tulis Pemberitahuan</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col m6 s6">
+                                  <div class="file-field input-field">
+                                    <div class="btn">
+                                      <span><i class="material-icons">add_a_photo</i></span>
+                                      <input type="file">
+                                    </div>
+                                    <div class="file-path-wrapper">
+                                      <input class="file-path validate" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col m3 s5 push-m3 pull-s1">
+                                  <div class="file-field input-field">
+                                    <input type ="submit" class ="btn waves-effect waves-light" value = "Submit">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!-- end tulis berita -->
+                  </div>
+                  <div id="Konten">
+                    <!-- content berita -->
+                    <div class="card-image">
+                      <img src="../IMAGES/banner3.jpg" alt="">
+                    </div>
+                    <br>
+                    <div class="row">
+                      <div class="col m6 s12">
+                        <div class="card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="../IMAGES/rosid.jpg">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">RELEASE STARTUP BARU<i class="material-icons right">more_vert</i></span>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">RELEASE STARTUP BARU<i class="material-icons right">close</i></span>
+                            <p>
+                              Founder CEO Leho Development telah menerbitkan startup baru yaitu SeminarKita. Aplikasi ini
+                              bersis website dengan segala keunggulan yang ditawarkan, Aplikasi ini menuai Feedback bari para
+                              mahasiswa yang telah mengalami kesulitan untuk mencari informasi. Aplikasi ini juga akan
+                              dibangun pada aplikasi berbasis android dan juga desktop dengan kolaborasi dengan development handal
+                              pada bidangnya.
+                            </p>
+                            <br>
+                            <p class="right">08/10/2020</p>
+                            <a href="#"><i class="material-icons">edit</i></a>
+                            <a href="#"><i class="material-icons">delete</i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col m6 s12">
+                        <div class="card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="../IMAGES/andi.jpg">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">OPEN RECREUITMENT<i class="material-icons right">more_vert</i></span>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">OPEN RECREUITMENT<i class="material-icons right">close</i></span>
+                            <p>
+                              Founder CEO Leho Development telah menerbitkan startup baru yaitu SeminarKita. Aplikasi ini
+                              bersis website dengan segala keunggulan yang ditawarkan, Aplikasi ini menuai Feedback bari para
+                              mahasiswa yang telah mengalami kesulitan untuk mencari informasi. Aplikasi ini juga akan
+                              dibangun pada aplikasi berbasis android dan juga desktop dengan kolaborasi dengan development handal
+                              pada bidangnya.
+                            </p>
+                            <br>
+                            <p class="right">08/10/2020</p>
+                            <a href="#"><i class="material-icons">edit</i></a>
+                            <a href="#"><i class="material-icons">delete</i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col m6 s12">
+                        <div class="card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="../IMAGES/alphin.jpg">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">HIGH LEVEL SENS OF ART CRUE<i class="material-icons right">more_vert</i></span>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">HIGH LEVEL SENS OF ART CRUE<i class="material-icons right">close</i></span>
+                            <p>
+                              Founder CEO Leho Development telah menerbitkan startup baru yaitu SeminarKita. Aplikasi ini
+                              bersis website dengan segala keunggulan yang ditawarkan, Aplikasi ini menuai Feedback bari para
+                              mahasiswa yang telah mengalami kesulitan untuk mencari informasi. Aplikasi ini juga akan
+                              dibangun pada aplikasi berbasis android dan juga desktop dengan kolaborasi dengan development handal
+                              pada bidangnya.
+                            </p>
+                            <br>
+                            <p class="right">08/10/2020</p>
+                            <a href="#"><i class="material-icons">edit</i></a>
+                            <a href="#"><i class="material-icons">delete</i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end content berita -->
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons left">event</i>Acara</div>
+              <div class="collapsible-body">
+                <br>
+                <div class="card-tabs">
+                  <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a class="active" href="#listacara">List Acara</a></li>
+                    <li class="tab"><a href="#tambahacara">Tambah Acara</a></li>
+                  </ul>
+                </div>
+                <br>
+                <!-- list acara -->
+                <div id="listacara">
+                  <div class="card-image">
+                    <img src="../IMAGES/banner2.jpg" alt="">
+                  </div>
+                  <table class="centered responsive-table highlight bordered">
+                    <tr>
+                      <th>TEMA</th>
+                      <th>JUDUL</th>
+                      <th>WAKTU</th>
+                      <th>BIAYA</th>
+                      <th>MENU</th>
+                    </tr>
+                    <tr>
+                      <td>TEKNOLOGI INFORMASI</td>
+                      <td>Mengoptimalkan Pemrogaman Berbasis Website di Indonesia</td>
+                      <td>08:00/08-10-2020</td>
+                      <td>Rp.2000</td>
+                      <td>
+                        <a href="#"><i class="material-icons">link</i></a>
+                        <a href="#"><i class="material-icons">edit</i></a>
+                        <a href="#"><i class="material-icons">delete</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>TEKNOLOGI INFORMASI</td>
+                      <td>Mengoptimalkan Pemrogaman Berbasis Website di Indonesia</td>
+                      <td>08:00/08-10-2020</td>
+                      <td>Rp.2000</td>
+                      <td>
+                        <a href="#"><i class="material-icons">link</i></a>
+                        <a href="#"><i class="material-icons">edit</i></a>
+                        <a href="#"><i class="material-icons">delete</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>TEKNOLOGI INFORMASI</td>
+                      <td>Mengoptimalkan Pemrogaman Berbasis Website di Indonesia</td>
+                      <td>08:00/08-10-2020</td>
+                      <td>Rp.2000</td>
+                      <td>
+                        <a href="#"><i class="material-icons">link</i></a>
+                        <a href="#"><i class="material-icons">edit</i></a>
+                        <a href="#"><i class="material-icons">delete</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>TEKNOLOGI INFORMASI</td>
+                      <td>Mengoptimalkan Pemrogaman Berbasis Website di Indonesia</td>
+                      <td>08:00/08-10-2020</td>
+                      <td>Rp.2000</td>
+                      <td>
+                        <a href="#"><i class="material-icons">link</i></a>
+                        <a href="#"><i class="material-icons">edit</i></a>
+                        <a href="#"><i class="material-icons">delete</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>TEKNOLOGI INFORMASI</td>
+                      <td>Mengoptimalkan Pemrogaman Berbasis Website di Indonesia</td>
+                      <td>08:00/08-10-2020</td>
+                      <td>Rp.2000</td>
+                      <td>
+                        <a href="#"><i class="material-icons">link</i></a>
+                        <a href="#"><i class="material-icons">edit</i></a>
+                        <a href="#"><i class="material-icons">delete</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>TEKNOLOGI INFORMASI</td>
+                      <td>Mengoptimalkan Pemrogaman Berbasis Website di Indonesia</td>
+                      <td>08:00/08-10-2020</td>
+                      <td>Rp.2000</td>
+                      <td>
+                        <a href="#"><i class="material-icons">link</i></a>
+                        <a href="#"><i class="material-icons">edit</i></a>
+                        <a href="#"><i class="material-icons">delete</i></a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!-- end list acara -->
+
+                  <!-- tambah acara -->
+                <div id="tambahacara">
+                    <div class="card-image">
+                      <img src="../IMAGES/banner1.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                      <div class="card-title">
+                        <h5><span style="color:#039be5;">Input Data Acara</span></h5>
+                      </div>
+                      <form class="" action="" method="post">
+                        <div class="row">
+                          <div class="input-field col m6 s12">
+                            <input id="tema" type="text" class="validate" required>
+                            <label for="tema" data-error="wrong" data-success="right">Tema</label>
+                          </div>
+                          <div class="input-field col m6 s12">
+                            <input id="judul" type="text" class="validate" required>
+                            <label for="judul" data-error="wrong" data-success="right">Judul</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div id="waktu" class="input-field col m6 s12">
+                            <input type="text" class="timepicker" required>
+                            <label for="waktu" data-error="wrong" data-success="right">Waktu</label>
+                          </div>
+                          <div class="input-field col m6 s12">
+                            <input id="tanggal" type="text" class="datepicker" required>
+                            <label for="tanggal" data-error="wrong" data-success="right">Hari Tanggal dan Bulan</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col m6 s12">
+                            <input id="Pemaeri" type="text" class="validate" required>
+                            <label for="Pemaeri" data-error="wrong" data-success="right">Pemateri</label>
+                          </div>
+                          <div class="input-field col m6 s12">
+                            <input id="Biaya" type="text" class="validate" required>
+                            <label for="Biaya" data-error="wrong" data-success="right">Biaya</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col m6 s12">
+                            <input id="Fasilitas" type="text" class="validate" required>
+                            <label for="Fasilitas" data-error="wrong" data-success="right">Fasilitas</label>
+                          </div>
+                          <div class="input-field col m6 s12">
+                            <input id="Sponsonr" type="text" class="validate" required>
+                            <label for="Sponsonr" data-error="wrong" data-success="right">Sponsonr</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col m6 s12">
+                            <input id="kontak" type="text" class="validate" required>
+                            <label for="kontak" data-error="wrong" data-success="right">Kontak</label>
+                          </div>
+                          <div class="input-field col m6 s12">
+                            <input id="MediaPartner" type="text" class="validate" required>
+                            <label for="MediaPartner" data-error="wrong" data-success="right">Media Partner</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col m6 s12">
+                            <input id="gambar" type="text" class="validate" required>
+                            <label for="gambar" data-error="wrong" data-success="right">Gambar</label>
+                          </div>
+                          <div class="input-field col m6 s12">
+                            <input id="Catatan" type="text" class="validate" required>
+                            <label for="Catatan" data-error="wrong" data-success="right">Catatan</label>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+                <!-- end tambah acara -->
+              </div>
+            </li>
+          </ul>
+      </div>
+      <!-- end content -->
+    </div>
+    <!-- end location -->
     <br><br>
 
     <!-- location -->
     <div class="card">
       <div class="row blue lighten-1 z-depth-1">
-        <div class="col m6 s12 push-m3">
+        <div class="col m6 s12 push-m1">
           <h4><span class="h2color">LOKASI</span></h4>
         </div>
       </div>
@@ -218,9 +731,34 @@
 
 
 
+
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <!-- <script src="../VENDOR/jquery-3.2.1.min.js"></script> -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
       <!-- <script src="../VENDOR/materialize/js/materialize.min.js"></script> -->
+      <script type="text/javascript">
+        $('document').ready(function(){
+          $('.timepicker').pickatime({
+            default: 'now', // Set default time: 'now', '1:30AM', '16:30'
+            fromnow: 0,       // set default time to * milliseconds from now (using with default = 'now')
+            twelvehour: false, // Use AM/PM or 24-hour format
+            donetext: 'OK', // text for done-button
+            cleartext: 'Clear', // text for clear-button
+            canceltext: 'Cancel', // Text for cancel-button
+            autoclose: false, // automatic close timepicker
+            ampmclickable: true, // make AM PM clickable
+            aftershow: function(){} //Function for after opening timepicker
+          });
+
+          $('.datepicker').pickadate({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 15, // Creates a dropdown of 15 years to control year,
+            today: 'Today',
+            clear: 'Clear',
+            close: 'Ok',
+            closeOnSelect: false // Close upon selecting a date,
+          });
+        });
+      </script>
   </body>
 </html>
